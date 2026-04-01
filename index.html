@@ -14,9 +14,10 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f5;
+            color: #1C1C1C;
+            background: linear-gradient(135deg, #F2FFF6 0%, #ECFFF3 100%);
             padding: 20px;
+            min-height: 100vh;
         }
 
         .container {
@@ -24,33 +25,41 @@
             margin: 0 auto;
             background: white;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(65, 171, 93, 0.15);
+            border: 1px solid rgba(91, 253, 134, 0.25);
         }
 
         h1 {
-            color: #1a73e8;
+            color: #41AB5D;
             margin-bottom: 10px;
             font-size: 2.5em;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(65, 171, 93, 0.1);
         }
 
         h2 {
-            color: #1a73e8;
+            color: #41AB5D;
             margin-top: 30px;
             margin-bottom: 15px;
             font-size: 1.8em;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(65, 171, 93, 0.2);
         }
 
         h3 {
-            color: #333;
+            color: #1C1C1C;
             margin-top: 25px;
             margin-bottom: 10px;
             font-size: 1.4em;
+            font-weight: 600;
         }
 
         p {
             margin-bottom: 15px;
             text-align: justify;
+            color: #1C1C1C;
         }
 
         ul {
@@ -60,29 +69,53 @@
 
         li {
             margin-bottom: 8px;
+            color: #1C1C1C;
         }
 
         .last-updated {
-            background: #e8f0fe;
+            background: linear-gradient(135deg, rgba(65, 171, 93, 0.1) 0%, rgba(91, 253, 134, 0.1) 100%);
             padding: 15px;
-            border-left: 4px solid #1a73e8;
+            border-left: 4px solid #41AB5D;
             margin: 20px 0;
-            border-radius: 5px;
+            border-radius: 8px;
+            color: #2E8B47;
+            font-weight: 500;
         }
 
         .contact-info {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #F8FDF9 0%, #ECFFF3 100%);
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 12px;
             margin-top: 30px;
+            border: 1px solid rgba(65, 171, 93, 0.2);
         }
 
         .app-info {
-            background: #fff3cd;
+            background: linear-gradient(135deg, rgba(255, 179, 102, 0.15) 0%, rgba(255, 195, 128, 0.1) 100%);
             padding: 15px;
-            border-left: 4px solid #ffc107;
+            border-left: 4px solid #FFB366;
             margin: 20px 0;
-            border-radius: 5px;
+            border-radius: 8px;
+            color: #1C1C1C;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(65, 171, 93, 0.05) 0%, rgba(91, 253, 134, 0.05) 100%);
+            border-radius: 12px;
+        }
+
+        a {
+            color: #41AB5D;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2E8B47;
         }
 
         @media (max-width: 600px) {
@@ -102,8 +135,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p style="text-align: center; font-style: italic;">Alfalaah MediaLib</p>
+        <div class="header-section">
+            <h1>Privacy Policy</h1>
+            <p style="color: #5F6B66; margin-top: 8px; font-size: 1.1em;">Alfalaah MediaLib</p>
+        </div>
 
         <div class="last-updated">
             <strong>Last Updated:</strong> April 1, 2026
