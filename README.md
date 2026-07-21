@@ -4,7 +4,7 @@ This repository contains the Privacy Policy for the Alfalaah MediaLib mobile app
 
 ## View Privacy Policy
 
-The Privacy Policy is hosted at: **https://techville.github.io/alfalaah-medlib-privacy/**
+The Privacy Policy is hosted at: **https://blackarabb.github.io/alfalaah-medlib-privacy/**
 
 ## Application Details
 
